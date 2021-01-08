@@ -10,8 +10,6 @@ const displayMsg = function (msg) {
   document.querySelector(".message").textContent = msg;
 };
 
-console.log(secretNumber);
-
 // again
 document.querySelector(".again").addEventListener("click", function () {
   secretNumber = Math.trunc(Math.random() * 20) + 1;
@@ -25,9 +23,9 @@ document.querySelector(".again").addEventListener("click", function () {
 
 // high score
 
-document.querySelector(".check").addEventListener("click", function () {
+document.querySelector(".check-form").addEventListener("submit", function (e) {
+  e.preventDefault();
   const guess = Number(document.querySelector(".guess").value);
-  console.log(guess, typeof guess);
 
   // no input
   if (!guess) {

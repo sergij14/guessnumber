@@ -1,3 +1,3 @@
 # guessNumber app
 
-An app created with javascript
+An app created with Javascript
