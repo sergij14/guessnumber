@@ -133,7 +133,7 @@ h1 {
 
 footer {
   margin-top: 2em;
-  padding-top: 2em;
+  padding: 2em 0;
   border-top: 7px solid #eee;
   font-size: 1.3rem;
   text-align: center;
