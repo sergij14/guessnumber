@@ -1,6 +1,8 @@
+import "core-js/stable";
+
 /////// GUESS MY NUMBER ///////
 
-"use strict";
+("use strict");
 
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
 let highScore = 0;
