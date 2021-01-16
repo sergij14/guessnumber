@@ -17,6 +17,10 @@ body {
   background-color: #222;
 }
 
+a {
+  color: #ffffff;
+}
+
 /* LAYOUT */
 
 .container {
@@ -125,6 +129,13 @@ h1 {
 
 .label-score {
   margin-bottom: 2rem;
+}
+
+footer {
+  margin-top: 2em;
+  padding-top: 2em;
+  border-top: 7px solid #eee;
+  font-size: 1.3rem;
 }
 
 /* MEDIA QUERIES */
